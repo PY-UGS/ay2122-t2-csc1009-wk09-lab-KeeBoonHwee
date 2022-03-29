@@ -51,51 +51,6 @@ public class RandomCharacter
                     }
                 }
             return true;
-            /*
-            HashMap<String,Integer> primes = new HashMap<String,Integer>();
-            primes.put("2",2);
-            primes.put("3",3);
-            primes.put("5",5);
-            primes.put("7",7);
-            primes.put("11",11);
-            primes.put("13",13);
-            primes.put("17",17);
-            primes.put("19",19);
-            primes.put("23",23);
-            primes.put("29",29);
-            primes.put("31",31);
-            primes.put("37",37);
-            primes.put("41",41);
-            primes.put("43",43);
-            primes.put("47",47);
-            primes.put("53",53);
-            primes.put("59",59);
-            primes.put("61",61);
-            primes.put("67",67);
-            primes.put("71",71);
-            primes.put("73",73);
-            primes.put("79",79);
-            primes.put("83",83);
-            primes.put("89",89);
-            primes.put("97",97);
-            primes.put("101",101);
-            primes.put("103",103);
-            primes.put("107",107);
-            primes.put("109",109);
-            primes.put("113",113);
-            primes.put("127",127);
-            String checkPrime = String.valueOf(number);
-            if(primes.containsKey( checkPrime ))
-            {
-                System.out.println(number + " (" + checkPrime + ") should be a prime number!");
-                return true;
-            }
-            else
-            {
-                System.out.println(number + " (" + checkPrime + ") shouldn't be a prime number!");
-                return false;
-            }
-            */
         }
     }
 
